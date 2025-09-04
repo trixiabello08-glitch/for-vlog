@@ -7,6 +7,12 @@ body {
 
 h1 {
   text-align: center;
+  background-color: rgba(73, 9, 9, 0.555);
+  border-radius: 16px;
+  width: fit-content;
+  padding: 1%;
+  margin: 25px auto;
+  border: 2px solid white;
 }
 
 .videos {
@@ -20,13 +26,28 @@ h1 {
 .video-card video {
   max-width: 80%;
   border-radius: 16px;
+  border: 2px solid white;
 }
 
 .video-card {
-  margin: auto;
   background-color: rgba(3, 9, 29, 0.425);
   border-radius: 16px;
   padding: 2%;
   color: wheat;
   text-align: center;
+  border: 2px solid white;
+}
+
+.song-box {
+  background-color: rgba(73, 9, 9, 0.555);
+  color: wheat;
+  border-radius: 16px;
+  padding: 1%;
+  width: fit-content;
+  margin: 15px auto;
+  border: 2px solid white;
+}
+
+.p {
+  padding-top: 15%;
 }
